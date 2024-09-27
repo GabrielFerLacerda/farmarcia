@@ -1,0 +1,96 @@
+:root {
+    --cor-1: #e23e57; /* Cor principal da navbar */
+    --cor-2: #ffffff; /* Fundo dos botões (pode ser mudado) */
+    --cor-3: #e96a7e; /* Tom de rosa */
+    --cor-4: #ce1f3a; /* Vermelho */
+    --cor-5: #e6e6e6; /* Cinza claro */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-5);
+    margin: 0;
+}
+
+/* Definir uma largura máxima para o conteúdo da home */
+.home-content {
+    padding: 100px;
+    max-width: 1200px; /* Ajuste a largura máxima */
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+/* Estilo da seção hero */
+.hero-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-section h2 {
+    color: var(--cor-3);
+    margin-bottom: 10px; /* Adiciona margem abaixo do título */
+}
+
+.hero-image {
+    max-width: 50%; /* Ajusta a largura máxima da imagem */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px; /* Adiciona margem abaixo da imagem */
+    margin-top: 10px;
+}
+
+/* Estilo da seção sobre */
+.about-section {
+    margin-bottom: 20px;
+    background-color: var(--cor-2);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.about-section h3 {
+    color: var(--cor-3);
+}
+
+/* Estilo da seção convite */
+.invitation-section {
+    margin-bottom: 20px;
+    background-color: var(--cor-4);
+    color: var(--cor-2);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.invitation-section h3 {
+    color: var(--cor-2);
+}
+
+.invite-button {
+    background-color: #e96a7e;
+    color: var(--cor-2);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.invite-button:hover {
+    background-color:#e23e57;
+}
+
+/* Estilo da seção galeria */
+.gallery-section {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: 100px; /* Tamanho fixo para as imagens da galeria */
+    height: auto;
+    border-radius: 5px;
+}
