@@ -1,5 +1,4 @@
 import React from 'react';
-import Headers from './Headers'; // Importando a Navbar
 import './produto.css'; // CSS do corpo
 
 
@@ -14,7 +13,6 @@ function Produto() {
 
     return (
         <div>
-            <Headers />
             <div className="content">
                 <section className="hero">
                     <h2>Bem-vindo à nossa Farmácia!</h2>
@@ -78,12 +76,12 @@ function Produto() {
 
                         </div>
                         <div className="product-item">
-                            <img src="https://example.com/nestle.png" alt="Nestlé" />
-                            <h4>Chocolate em Pó Nestlé 50% Cacau 200g</h4>
+                            <img src="https://dv2vs9hut5ih2.cloudfront.net/Custom/Content/Products/13/22/13224_dipirona-monoidratada-500mg-10cpr-prati-donaduzzi-p1110232_m1_638103421006862361.png" alt="Nestlé" />
+                            <h4>Dipirona Monoidratada 500mg 10cpr</h4>
                             <div className="price-info">
-                                <span className="old-price">R$ 12,90</span>
-                                <span className="discount-price">R$ 9,99</span>
-                                <span className="discount-percentage">22% OFF</span>
+                                <span className="old-price">R$ 5,99</span>
+                                <span className="discount-price">R$ 3,99</span>
+                                <span className="discount-percentage">3UNI</span>
                             </div>
                             <button className="buy-button">Comprar</button>
 
@@ -91,7 +89,7 @@ function Produto() {
                         </div>
                         <div className="product-item">
                             <img src="https://dgp88uvg9z4ut.cloudfront.net/Custom/Content/Products/68/47/68477_nutren-senior-370g-chocolate-p100613_m1_638424825116612903.png" alt="Nutren" />
-                            <h4>Nutren Senior Sem Sabor 370g</h4>
+                            <h4>Nutren Senior Sem Sabor</h4>
                             <div className="price-info">
                                 <span className="old-price">R$ 49,90</span>
                                 <span className="discount-price">R$ 39,90</span>

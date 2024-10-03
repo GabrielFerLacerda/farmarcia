@@ -1,14 +1,12 @@
-import React from 'react'
-import Headers from './Headers' 
+import React from 'react' 
 import './body.css'
 
 function Body() {
 
     
-    
+
     return (
         <div>
-            <Headers />
             <div className="home-content">
                 <section className="hero-section">
                     <h2>Bem-vindo à nossa nova farmácia!</h2>
