@@ -11,10 +11,8 @@ function App() {
   return (
     <>
       <Headers />
-      <nav>
         <button classname="buttao" onClick={() => { setPagina(<Body />) }}>Inicio</button>
         <button classname="buttao" onClick={() => { setPagina(<Produto />) }}>Produtos</button>
-      </nav>
       <div>{pagina}</div> 
     </>
   )

@@ -1,12 +1,11 @@
 import React from 'react';
-import './Navbar.css';
+import './headers.css';
 import Logo from './Logo';
+import App from '../../../App';
+import Body from "./Body"
+import Produto from './Produto';
 
 const Headers = () => {
-    const handleButtonClick = (section) => {
-        console.log(`Navegando para ${section}`);
-        // Adicione a lógica para navegar entre seções se necessário
-    }
 
     return (
         <div className="navbar">
@@ -16,13 +15,13 @@ const Headers = () => {
             </div>
             <input type="text" className="search-bar" placeholder="  Pesquise seu produto" />
             <div className="buttons">
-                <button onClick={() => handleButtonClick('Início')}>Início</button>
-                <button onClick={() => handleButtonClick('Produtos')}>Produtos</button>
+                <button  onClick={() => { setPagina(<Body />) }}>Inicio</button>
+                <button  onClick={() => { setPagina(<Produto />) }}>Produtos</button>
                 <button onClick={() => handleButtonClick('Sobre Nós')}>Sobre Nós</button>
                 <button onClick={() => handleButtonClick('Contato')}>Contato</button>
             </div>
         </div>
-    );
+    )
 }
 
 export default Headers;

@@ -1,9 +1,11 @@
-import React from 'react';
-import Headers from './Headers'; 
-import './body.css'; 
+import React from 'react'
+import Headers from './Headers' 
+import './body.css'
 
+function Body() {
 
-const Home = () => {
+    
+    
     return (
         <div>
             <Headers />
@@ -27,19 +29,9 @@ const Home = () => {
                     <p><strong>Local:</strong> Avenida Principal, 123, Sua Cidade</p>
                     <button className="invite-button">Confirme sua Presença!</button>
                 </section>
-
-                <section className="gallery-section">
-                    <h3>Galeria</h3>
-                    <div className="gallery">
-                        <img src="" alt="Imagem 1" />
-                        <img src="" alt="Imagem 2" />
-                        <img src="" alt="Imagem 3" />
-                        <img src="" alt="Imagem 4" />
-                    </div>
-                </section>
             </div>
         </div>
     )
 }
 
-export default Home;
+export default Body;

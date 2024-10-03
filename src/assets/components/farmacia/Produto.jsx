@@ -2,7 +2,16 @@ import React from 'react';
 import Headers from './Headers'; // Importando a Navbar
 import './produto.css'; // CSS do corpo
 
-const Produto = () => {
+
+
+
+
+function Produto() {
+
+
+
+
+
     return (
         <div>
             <Headers />
@@ -37,29 +46,36 @@ const Produto = () => {
                     </div>
                 </section>
 
+
+
                 {/* Produtos em destaque */}
                 <section className="products">
                     <h3>Produtos em Destaque</h3>
+
                     <div className="product-list">
                         <div className="product-item">
-                            <img src="https://example.com/pampers.png" alt="Fralda Pampers" />
-                            <h4>Fralda Pampers Premium Care Com 60 Unidades</h4>
+                            <img src="https://drogariacristal.com/media/catalog/product/cache/dc75f304252411b8c602e1e96d99390d/a/c/actine-fresh-solar-corporal-fps.png" alt="Protetor solar" />
+                            <h4>Protetor solar actine fresh corporal FPS 60 150G</h4>
                             <div className="price-info">
-                                <span className="old-price">R$ 149,90</span>
-                                <span className="discount-price">R$ 99,89</span>
+                                <span className="old-price">R$ 48,90</span>
+                                <span className="discount-price">R$ 32.76</span>
                                 <span className="discount-percentage">33% OFF</span>
                             </div>
                             <button className="buy-button">Comprar</button>
+
+                            
                         </div>
                         <div className="product-item">
-                            <img src="https://example.com/carmed.png" alt="Carmed" />
-                            <h4>Carmed Bálsamo Protetor Labial 10g</h4>
+                            <img src="https://coopsp.vtexassets.com/arquivos/ids/224162/7891000325131.jpg?v=637919583538700000" alt="Carmed" />
+                            <h4>Bombom Nestlé Especialidades 251g</h4>
                             <div className="price-info">
-                                <span className="old-price">R$ 25,90</span>
-                                <span className="discount-price">R$ 19,90</span>
-                                <span className="discount-percentage">23% OFF</span>
+                                <span className="old-price">R$ 15.49</span>
+                                <span className="discount-price">R$ 13,94 </span>
+                                <span className="discount-percentage">10% OFF</span>
                             </div>
                             <button className="buy-button">Comprar</button>
+
+
                         </div>
                         <div className="product-item">
                             <img src="https://example.com/nestle.png" alt="Nestlé" />
@@ -70,9 +86,11 @@ const Produto = () => {
                                 <span className="discount-percentage">22% OFF</span>
                             </div>
                             <button className="buy-button">Comprar</button>
+
+
                         </div>
                         <div className="product-item">
-                            <img src="https://example.com/nutren.png" alt="Nutren" />
+                            <img src="https://dgp88uvg9z4ut.cloudfront.net/Custom/Content/Products/68/47/68477_nutren-senior-370g-chocolate-p100613_m1_638424825116612903.png" alt="Nutren" />
                             <h4>Nutren Senior Sem Sabor 370g</h4>
                             <div className="price-info">
                                 <span className="old-price">R$ 49,90</span>
@@ -80,9 +98,11 @@ const Produto = () => {
                                 <span className="discount-percentage">20% OFF</span>
                             </div>
                             <button className="buy-button">Comprar</button>
+
+
                         </div>
                         <div className="product-item">
-                            <img src="https://example.com/palmolive.png" alt="Palmolive" />
+                            <img src="https://superprix.vteximg.com.br/arquivos/ids/178031-600-600/Shampoo-Palmolive-Naturals-Ceramidas-Force-350ml.png?v=636712145150230000" alt="Palmolive" />
                             <h4>Shampoo Palmolive 350ml</h4>
                             <div className="price-info">
                                 <span className="old-price">R$ 15,90</span>
@@ -90,9 +110,11 @@ const Produto = () => {
                                 <span className="discount-percentage">21% OFF</span>
                             </div>
                             <button className="buy-button">Comprar</button>
+
+
                         </div>
                         <div className="product-item">
-                            <img src="https://example.com/protex.png" alt="Protex" />
+                            <img src="https://www.bernardaoemcasa.com.br/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/9/3/9343-sabonete-protex-85-g-balance-saud-g_1_.jpg" alt="Protex" />
                             <h4>Sabonete Protex 85g</h4>
                             <div className="price-info">
                                 <span className="old-price">R$ 3,90</span>
@@ -100,11 +122,13 @@ const Produto = () => {
                                 <span className="discount-percentage">26% OFF</span>
                             </div>
                             <button className="buy-button">Comprar</button>
+
+
                         </div>
                     </div>
                 </section>
 
-                {/* Card grande */}
+                
                 <section className="highlight-card">
                     <div className="big-card">
                         <h3>Promoção Especial</h3>
@@ -112,7 +136,7 @@ const Produto = () => {
                     </div>
                 </section>
 
-                {/* Seção Sobre Nós */}
+        
                 <section className="about">
                     <h3>Sobre Nós</h3>
                     <p>Conheça mais sobre nossa farmácia e nossos valores.</p>

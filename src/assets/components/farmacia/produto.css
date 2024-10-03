@@ -13,6 +13,11 @@ body {
     margin: 0;
     padding-top: 0vh;
 }
+.content {
+    padding: 20px;
+    margin-top: 80px; 
+}
+
 
 .content {
     padding: 20px;
@@ -53,11 +58,11 @@ body {
     align-items: center;
     text-align: center;
     font-size: 14px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: #ce1f3a;
 }
 
 .circular-product-item img {
-    width: 90px; /* Define o tamanho da imagem */
+    width: 90px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover; 
@@ -65,19 +70,19 @@ body {
 }
 
 .circular-product-item p {
-    font-size: 12px; /* Tamanho do texto abaixo da imagem */
+    font-size: 12px; 
     color: var(--cor-1); 
 }
 
 .circular-product-item:hover {
     transform: scale(1.1); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    box-shadow:#ce1f3a; 
     background-color: var(--cor-6); 
     color: var(--cor-2); 
 }
 
 .circular-product-item:hover img {
-    transform: scale(1.1); /* Zoom na imagem também */
+    transform: scale(1.1); 
     transition: transform 0.3s ease;
 }
 
@@ -100,7 +105,7 @@ body {
     color: var(--cor-1);
     padding: 15px;
     border-radius: 5px;
-    flex: 1 1 calc(25% - 15px); /* 4 itens por linha com espaçamento */
+    flex: 1 1 calc(25% - 15px);
     text-align: center;
 }
 
@@ -108,8 +113,8 @@ body {
 .product-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 20px; /* Espaçamento entre os cards */
-    justify-items: center; /* Centraliza os cards na grid */
+    gap: 20px; 
+    justify-items: center; 
 }
 
 /* Estilos do item do produto */
@@ -122,7 +127,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
-    max-width: 220px; /* Tamanho máximo dos cards */
+    max-width: 220px; 
 }
 
 /* Estilo da imagem do produto */
