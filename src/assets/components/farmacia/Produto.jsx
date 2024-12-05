@@ -15,7 +15,7 @@ function Produto() {
         <div>
             <div className="content">
                 <section className="hero">
-                    <h2>Bem-vindo à nossa Farmácia!</h2>
+                    <h2>Bem vindo à nossa Farmácia!</h2>
                     <p>Aqui você encontra os melhores produtos para sua saúde.</p>
                 </section>
 
